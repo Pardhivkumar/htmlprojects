@@ -1,0 +1,211 @@
+body{
+	color: black;
+	background: palegoldenrod;
+	text-align: left;
+	padding: 30px;
+	font-family: "Palatino Linotype","Bool Antiqua",Palatino serif;
+	font-size: 18px;
+	font-weight:bolder;
+	/*same as above */
+	/*
+	font:bolder 18px 1"Palatino Linotype","Bool Antiqua",Palatino serif;
+	*/
+	line-height: 1.5em;/* gives the gap between the lines*/
+	margin:10;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+a:visited{
+	color: navy;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.clr{
+	clear: both;
+}
+.box-1{
+	background-color:mintcream;
+	border-radius:15px;
+	/* same as below "border: 5px red solid;"
+	border-bottom: 5px red solid;
+	border-left: 5px red solid;
+	border-right: 5px red solid;
+	border-top: 5px red solid;*/
+	border: 5px red solid;
+	border-width: 7px;
+	border-top-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-right-style: double;
+	padding-left: 20px;
+	margin-leftt: 20px 0;
+	margin-top: 20px;
+	margin: 20px;
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 600;
+	background-color: mintcream;
+	font-style: italic;
+	text-transform: full-width;
+	text-decoration: underline;
+	letter-spacing: 0.1em;
+	word-spacing: 0.5em;
+}
+
+.box-2{
+	border-radius: 15px;
+	background-color:mintcream;
+	border-bottom: 5px red solid;
+	border-top:5px red solid;
+	border-left: 5px red solid;
+	border-right: 5px red solid;
+	border-top-style: double;
+	border-bottom-style: double;
+	border-right-style: double;
+	border-left-style: double;
+	border-width: 7px;
+	padding: 20px;
+	margin: 20px 0;
+
+}
+.box-2 h1{
+	font-family: Tahoma;
+	font-weight: 600;
+	font-style: italic;
+	text-transform: full-width;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+	word-spacing: 0.5em;
+}
+
+.categories{
+	text-align: left;
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: mintcream;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding: 0;
+	list-style:inside;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: double;
+	border-bottom-style: double;
+}
+
+.my-form{
+	padding: 20px;
+}
+.my-form.form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"],.my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="submit"]{
+	background-color:darkmagenta ;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+}
+
+.block{
+	border: 1px solid black;
+	float: left;
+	width: 33.3%;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+}
+#side-bar{
+	background-color: ghostwhite;
+	float: right;
+	width: 30%;
+	border: 1px solid black;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.p-block{
+	border: 1px solid black;
+	width: 800px;
+	height: 500px;
+	margin-top: 30px;
+	position: relative;
+	background-image: url("./images/bgimage.jpg");
+}
+
+.p-block h1{
+	position: absolute;
+	top: 40px;
+}
+
+.fix-me{
+	border: 1px solid black;
+	background-color: white;
+	position: fixed;
+	top: 400px;
+}
+
+.my-list li:first-child{
+	background-color: blue;
+}
+
+.my-list li:nth-child(5){
+	background-color: red;
+}
+
+.my-list li:nth-child(2){
+	background-color: limegreen;
+}
+.my-list li:nth-child(3){
+	background-color: midnightblue;
+}
+.my-list li:nth-child(4){
+	background-color: darkorchid;
+}
+.my-list li:nth-child(6){
+	background-color: orangered;
+}
+.my-list li:nth-child(7){
+	background-color: cornsilk;
+}
+.my-list li:nth-child(8){
+	background-color: crimson;
+}
+.my-list li:nth-child(9){
+	background-color: chartreuse;
+}
